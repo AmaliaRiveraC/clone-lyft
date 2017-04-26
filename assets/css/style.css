@@ -69,3 +69,7 @@ li{
     font-family: Gotham SSm A,Gotham SSm B,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
 }
 
+#contenedor-formulario button {
+    background-color: #ff00bf;
+    border-radius: 15%;
+}
