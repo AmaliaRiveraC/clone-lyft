@@ -39,6 +39,6 @@ function esconderFormularioCompleto(){
   divformulario.className="esconderFormulario" //Esconde el formulario desde el css checar con estilos
 }
 
-function cambiarColorBotonARosa(){
+/*function cambiarColorBotonARosa(){
   //esta funcion es para cambiar los colores de los botones del formulario
-}
+}*/
