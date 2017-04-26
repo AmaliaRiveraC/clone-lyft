@@ -12,6 +12,36 @@ li{
   margin: 20px;
 }
 
+
+/*Seccion 3-5*/
+
+.seccion-textos {
+	display: block;
+	width: 300px;
+	height: 506px;
+	text-align: left;
+}
+
+.p1 {
+	float: left;
+}
+
+.imgV {
+	display: inline;
+	width: 900px;
+	height: 506px;
+	position: relative;
+}
+
+.der {
+	float: right;
+	margin-left: 0;
+}
+
+.parrafos {
+  font-size: 120%;
+}
+ /* Estilo seccion2 */
 #seccion2 {
     position: relative;
 }
