@@ -1,0 +1,13 @@
+.logoBlanco{
+  background-image:url(assets/img/logo-white.png);
+}
+.logoRosa{
+  background-image:url(assets/img/logo-pink.png);
+}
+.menu{
+  display: inline-block;
+}
+li{
+  display: inline;
+  margin: 20px;
+}
