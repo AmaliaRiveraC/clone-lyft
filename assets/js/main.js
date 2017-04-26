@@ -1,4 +1,3 @@
-
 var logo = document.getElementById('logo');
 var imgBlanco = document.createElement('img');
 var imgRosa = document.createElement('img');

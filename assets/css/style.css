@@ -35,7 +35,7 @@ nav{
 /*Seccion 3-5*/
 
 .seccion-textos {
-	display: block;
+	display: inline-block;
 	width: 300px;
 	height: 506px;
 	text-align: left;
@@ -93,9 +93,11 @@ nav{
 }
 
 /*seccion6*/
+
 #seccion6 {
     clear: both;
 }
+
 .producto{
   display: inline-block;
   margin-left: 90px;
