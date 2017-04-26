@@ -2,20 +2,43 @@ header{
   background: rgba(51,52,7,0.2);
 }
 .logoBlanco{
-  background-image:url(assets/img/logo-white.png);
+display: none;
 }
 .logoRosa{
-  background-image:url(assets/img/logo-pink.png);
+display: inline-block;
+}
+#seccion1{
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+ul{
+  display: inline-block;
+}
+#logo{
+  width: 100%;
+  display: inline-block;
 }
 nav{
+  width: 100%;
   display: inline-block;
-  color: white;
+  float: right;
+
 }
 .menu-li{
   display: inline;
   margin: 20px;
   font-size: 20px;
-  font-weight:
+  list-style: none;
+  color: white;
+}
+.textoNegro{
+  display: inline;
+  margin: 20px;
+  font-size: 20px;
+  list-style: none;
+  color: black;
+
 }
 #login{
   font-family: inherit;
@@ -63,6 +86,7 @@ nav{
  /* Estilo seccion2 */
 #seccion2 {
     position: relative;
+     overflow: scroll;
 }
 #imagen-seccion2 {
     width: 10px;
@@ -130,4 +154,3 @@ nav{
   font-size: 20px;
   font-weight: lighter;
 }
-

@@ -7,15 +7,31 @@ logo.style.border= 4;
 imgBlanco.src = "assets/img/logo-white.png";
 imgBlanco.className = "logoBlanco";
 imgRosa.src = "assets/img/logo-pink.png";
-imgRosa.className = "logoBlanco";
-
+imgRosa.className = "logoRosa";
 
 logo.appendChild(imgBlanco);
 logo.appendChild(imgRosa);
-var seccionCambio = document.getElementById('seccion2');
-seccionCambio.addEventListener('moveend',function () {
-window.scrollTo(0, 100);
+
+
+document.addEventListener("scroll", function () {
+cambioClase();
+cambiarTexto();
 });
+
+function cambioClase() {
+  var encabezado = document.getElementById('seccion1');
+    encabezado.style.background = "white";
+
+}
+function cambiarTexto() {
+  var menu= document.getElementsByClassName("menu-li");
+  for (var i = 0; i < menu.length; i++) {
+    menu[i].className = "menu-li textoNegro";
+  }
+};
+
+
+
 
 var botonEnviarForm = document.getElementById("enviarFormulario");
 var botonSignRide = document.getElementById("signRide");
@@ -42,4 +58,3 @@ function esconderFormularioCompleto(){
 function cambiarColorBotonARosa(){
   //esta funcion es para cambiar los colores de los botones del formulario
 }
-
