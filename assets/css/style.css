@@ -36,7 +36,7 @@ nav{
 
 .seccion-textos {
 	display: inline-block;
-	width: 300px;
+	width: 310px;
 	height: 506px;
 	text-align: left;
 }
@@ -50,15 +50,24 @@ nav{
 	width: 900px;
 	height: 506px;
 	position: relative;
+	padding: 0;
 }
 
 .der {
 	float: right;
-	margin-left: 0;
+
 }
 
 .parrafos {
   font-size: 120%;
+}
+
+.alinearI {
+	margin-left: 30px;
+}
+
+.alinearD {
+	margin-right: 50px;
 }
  /* Estilo seccion2 */
 #seccion2 {
