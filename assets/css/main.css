@@ -1,0 +1,27 @@
+body{
+  font-family: "Gotham", helvetica, sans-serif;
+  color: #333447;
+  margin: 0 auto;
+}
+h1{
+  font-family: inherit;
+  font-weight: 100;
+}
+.tituloBlanco{
+  color: white;
+}
+.tituloNegro{
+  color: #333447;
+}
+.subtitulo{
+  font-size: 100%;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+nav:hover{
+  color: #FF00BF;
+}
+
+#seccion2{
+  background: linear-gradient(#76278f,#2b1e66);
+}
