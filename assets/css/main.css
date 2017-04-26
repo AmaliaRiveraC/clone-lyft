@@ -1,5 +1,5 @@
 body{
-  font-family: "Gotham", helvetica, sans-serif;
+  font-family: 'Nunito Sans', sans-serif, helvetica, sans-serif;
   color: #333447;
   margin: 0 auto;
 }
@@ -25,3 +25,4 @@ nav:hover{
 #seccion2{
   background: linear-gradient(#76278f,#2b1e66);
 }
+
