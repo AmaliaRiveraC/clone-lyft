@@ -109,7 +109,6 @@ nav{
 }
 
 #seccion2 span{
-
   display: block;
   margin: 0;
   color: #352384;
@@ -117,6 +116,10 @@ nav{
 }
 #seccion2 a {
     color: #ff00bf;
+}
+#seccion2 .linea{
+   width: 350px;
+   margin-bottom: 15px;
 }
 #seccion2 input{
     display: block;
@@ -130,26 +133,25 @@ nav{
   font-size: 11px;
 }
 .boton-rosa {
-    background-color: #ff00bf;
-    border-radius: 10px;
-    font-size: 20px;
-    border: 0px;
-    padding: 17px;
-    font-family: inherit;
-    font-weight: 100;
-    display: inline-block;
-    color: white;
-    width: 200px;
+  background-color: #ff00bf;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 0px;
+  padding: 17px;
+  font-family: inherit;
+  font-weight: 100;
+  display: inline-block;
+  color: white;
+  width: 200px;
 }
 .boton-nada{
   font-family: inherit;
   font-size: 20px;
   border: 0px;
   color: #728099;
-}
-#contenedor-formulario button {
-    background-color: #ff00bf;
-    border-radius: 15%;
+  background: none;
+  margin-left: 20px;
+  text-decoration: underline;
 }
 
 /*seccion6*/
