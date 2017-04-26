@@ -1,21 +1,28 @@
+.logoBlanco {
+  background-image: url(assets/img/logo-white.png);
+}
 header{
   background: rgba(51,52,7,0.2);
 }
 .logoBlanco{
   background-image:url(assets/img/logo-white.png);
 }
-.logoRosa{
-  background-image:url(assets/img/logo-pink.png);
+
+.logoRosa {
+  background-image: url(assets/img/logo-pink.png);
 }
 nav{
+
   display: inline-block;
   color: white;
+  margin-left: 700px;
+  margin-top: 20px;
+
 }
 .menu-li{
   display: inline;
   margin: 20px;
   font-size: 20px;
-  font-weight:
 }
 #login{
   font-family: inherit;
@@ -71,7 +78,8 @@ nav{
 }
  /* Estilo seccion2 */
 #seccion2 {
-    position: relative;
+  height: auto;
+
 }
 #imagen-seccion2 {
     width: 10px;
@@ -81,20 +89,63 @@ nav{
 }
 #contenedor-formulario {
     width: 500px;
-    height: 400px;
+    height: auto;
     left: 600px;
     background-color: white;
-    position: absolute;
+    position: relative;
     padding: 50px;
-}
-#seccion2 a {
-    color: #ff00bf;
+    left:  60%;
+    top: 220px;
 }
 
 #seccion2 h1 {
     color: #352384;
     font-size: 40px;
-    font-family: Gotham SSm A,Gotham SSm B,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.esconderFormulario{
+  display: none;
+}
+
+#seccion2 span{
+
+  display: block;
+  margin: 0;
+  color: #352384;
+  font-size: 15px;
+}
+#seccion2 a {
+    color: #ff00bf;
+}
+#seccion2 input{
+    display: block;
+    margin: 20px 0px 20px 0px;
+    border: 0px;
+    font-size:20px;
+    color: #bfc7d9;
+
+}
+#seccion2 p{
+  font-size: 11px;
+}
+.boton-rosa {
+    background-color: #ff00bf;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 0px;
+    padding: 17px;
+    font-family: inherit;
+    font-weight: 100;
+    display: inline-block;
+    color: white;
+    width: 200px;
+}
+.boton-nada{
+  font-family: inherit;
+  font-size: 20px;
+  border: 0px;
+  color: #728099;
 }
 #contenedor-formulario button {
     background-color: #ff00bf;
@@ -102,6 +153,11 @@ nav{
 }
 
 /*seccion6*/
+
+#seccion6 {
+    clear: both;
+}
+
 .producto{
   display: inline-block;
   margin-left: 90px;
@@ -135,3 +191,61 @@ nav{
   font-weight: lighter;
 }
 
+
+/*Estilos footer*/
+
+.seccion8 {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-color: #333447;
+}
+
+.columna {
+  float: left;
+  display: inline-block;
+  margin: 30px 0px 0px 40px;
+  width: 18%;
+}
+
+.columna li {
+  display: block;
+}
+
+.columna li a {
+  color: white;
+  text-decoration: none;
+}
+
+.columna li a:hover {
+  color: #FF00BF;
+}
+
+.columna img {
+  width: 167px;
+  height: 50px;
+}
+
+.redes {
+  clear: both;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.redes img {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  float: left;
+  margin-left: 65px;
+}
+
+.redes hr {
+  display: block;
+  margin-top:40px;
+  margin-bottom: 10px;
+  clear:both;
+}
+.limpiar{
+  clear: both;
+  height: 50px;
+}
