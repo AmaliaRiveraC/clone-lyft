@@ -188,7 +188,7 @@ nav{
 .seccion8 {
   margin-bottom: 0px;
   margin-left: 0px;
-  background-color: #333447;
+  background-color: #333447 ;
 }
 
 .columna {
@@ -198,20 +198,20 @@ nav{
   width: 18%;
 }
 
-.columna li {
+.columnaLi {
   display: block;
 }
 
-.columna li a {
+.columnaLiA {
   color: white;
   text-decoration: none;
 }
 
-.columna li a:hover {
-  color: #FF00BF;
+.columnaLiA:hover {
+  color: #FF00BF ;
 }
 
-.columna img {
+.columnaImg {
   width: 167px;
   height: 50px;
 }
@@ -222,7 +222,7 @@ nav{
   margin: 0 auto;
 }
 
-.redes img {
+.redesImg {
   width: 30px;
   height: 30px;
   display: inline-block;
