@@ -1,13 +1,128 @@
+header{
+  background: rgba(51,52,7,0.2);
+}
 .logoBlanco{
   background-image:url(assets/img/logo-white.png);
 }
 .logoRosa{
   background-image:url(assets/img/logo-pink.png);
 }
-.menu{
+nav{
   display: inline-block;
+  color: white;
 }
-li{
+.menu-li{
   display: inline;
   margin: 20px;
+  font-size: 20px;
+  font-weight:
 }
+#login{
+  font-family: inherit;
+  color: white;
+  border: 1px solid white;
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 7px;
+  width: 90px;
+}
+#login:hover{
+  background: white;
+  opacity:.2;
+}
+
+
+/*Seccion 3-5*/
+
+.seccion-textos {
+	display: block;
+	width: 300px;
+	height: 506px;
+	text-align: left;
+}
+
+.p1 {
+	float: left;
+}
+
+.imgV {
+	display: inline;
+	width: 900px;
+	height: 506px;
+	position: relative;
+}
+
+.der {
+	float: right;
+	margin-left: 0;
+}
+
+.parrafos {
+  font-size: 120%;
+}
+ /* Estilo seccion2 */
+#seccion2 {
+    position: relative;
+}
+#imagen-seccion2 {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+}
+#contenedor-formulario {
+    width: 500px;
+    height: 400px;
+    left: 600px;
+    background-color: white;
+    position: absolute;
+    padding: 50px;
+}
+#seccion2 a {
+    color: #ff00bf;
+}
+
+#seccion2 h1 {
+    color: #352384;
+    font-size: 40px;
+    font-family: Gotham SSm A,Gotham SSm B,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+#contenedor-formulario button {
+    background-color: #ff00bf;
+    border-radius: 15%;
+}
+
+/*seccion6*/
+.producto{
+  display: inline-block;
+  margin-left: 90px;
+  padding: 40px;
+  width: 500px;
+  text-align: justify;
+}
+
+.noticias{
+  display: inline-block;
+  margin-right: 90px;
+  padding: 40px;
+  width: 500px;
+  text-align: justify;
+}
+
+.titulo6{
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.tema6{
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.resumen6{
+  font-size: 20px;
+  font-weight: lighter;
+}
+
