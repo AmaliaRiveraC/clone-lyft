@@ -57,4 +57,6 @@ function esconderFormularioCompleto(){
 
 function cambiarColorBotonARosa(){
   //esta funcion es para cambiar los colores de los botones del formulario
+
 }
+

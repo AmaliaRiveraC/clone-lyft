@@ -26,19 +26,21 @@
             <div id="contenedor-formulario">
                 <form>
                     <h1><strong>TURN MILES <br> INTO MONEY</strong></h1>
-                    <p>SIGN UP TO DRIVE WITH LYFT.</p>
+                    <span>SIGN UP TO DRIVE WITH LYFT.</span>
                     <input placeholder="Phone Number" id="ingresarNumero">
-                    <div id="imputsEscondidos">
+                    <hr>
+                    <div class="esconderFormulario" id="imputsEscondidos">
                       <input type="text" placeholder="First Name" name="" value="">
                       <input type="Email" placeholder="Email" name="" value="">
                       <input type="text" placeholder="City" name="" value="">
                       <a href="#">Promo code?</a>
                       <input type="checkbox" name="" value=""><p>I agree to lyft´s Terms of Service</p>
                     </div>
-                    <button type="button" id="enviarFormulario">Become a Driver</button>
-                    <button type="button" id="signRide">Sign Up to Ride</button>
+                    <button type="button" class="boton-rosa" id="enviarFormulario">Become a Driver</button>
+                    <button class="boton-nada" type="button" id="signRide">Sign Up to Ride</button>
                     <p>Already applied? <a>Check the status of your application here.</a></p>
                     <p>Earn money for inviting friends to drive.<a> Learn more</a></p>
+
                 </form>
             </div>
             <div>
@@ -56,9 +58,9 @@
         </section>
         <section id="seccion3">
           <div class="seccion-textos p1">
-            <p>WATCH</p>
-            <h3>AMPLIFY YOUR RIDE</h3>
-            <p class="parrafos">
+            <p class="alinearI">WATCH</p>
+            <h3 class="alinearI">AMPLIFY YOUR RIDE</h3>
+            <p class="parrafos alinearI">
               Lyft’s new emblem, Amp, is the secret to smooth pickups.
               Lighting up dashboards nationwide, the device makes it easy for passengers
               and drivers to find each other.
@@ -70,21 +72,21 @@
         </section>
         <section id="seccion4">
           <div class="seccion-textos der">
-            <p>WATCH</p>
-            <h3>JUNE</h3>
-            <p class="parrafos">
-              In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride — and sharing her life, too.
+            <p class="alinearD">WATCH</p>
+            <h3 class="alinearD">JUNE</h3>
+            <p class="parrafos alinearD">
+              In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride — and sharing her life, too, Yaas.
             </p>
           </div>
-            <div class="seccion-textos p1">
+            <div class="seccion-textos">
                 <a><img class="imgV" src="assets/img/img-video2.png"></a>
             </div>
         </section>
       <section id="seccion5">
-		<div class="seccion-textos">
-			<p class="parrafos">WATCH</p>
-			<h3>A GOOD THING GOING</h3>
-			<p>Launching on TV and online, “Ride on the Bright Side” shows how Lyft continues to prioritize happy drivers, short ETAs, and safety.</p>
+		<div class="seccion-textos p1">
+			<p class="parrafos alinearI">WATCH</p>
+			<h3 class="alinearI">A GOOD THING GOING</h3>
+			<p class="alinearI">Launching on TV and online, “Ride on the Bright Side” shows how Lyft continues to prioritize happy drivers, short ETAs, and safety.</p>
 		</div>
 		<div>
 			<a href=""><img class="imgV der" src="assets/img/img-video3.png"></a>
@@ -119,58 +121,53 @@
       </div>
     </div>
   </section>
-     <section class="seccion7">
-      <div class="">
-        <img src="assets/img/pin.png" alt="location">
+     <section id="seccion7">
+      <div class="pinUbicacion">
+        <img src="assets/img/pin.png" class="ubicacion">
       </div>
-      <div class="">
-        <h3>FIND LYFT IN YOUR CITY</h3>
-        <p>Find a City</p>
+      <div class="contenidoUbicacion">
+        <h3 class="tituloUbicacion">FIND LYFT IN YOUR CITY</h3>
+        <p class="pUbicacion">Find a City</p>
         <hr>
-        <a href="#"><p>See airports we serve</p></a>
+        <a href="#" class="aUbicacion"><p>See airports we serve</p></a>
       </div>
     </section>
-    <section class="seccion8">
-      <ul>DRIVE
-        <li>
-          <a href="#">RIDE</a>
-          <a href="#">LOG IN</a>
-          <a href="#">Help</a>
-          <a href="#">Cities</a>
-          <a href="#">Airports</a>
-          <a href="#">Fare Estimate</a>
-          <a href="#">Free Ride Credits</a>
-          <a href="#">Driver Promo</a>
-          <a href="#">Gift Cards</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">Partnerchips</a>
-          <a href="#">Business</a>
-          <a href="#">Ambassadors</a>
-          <a href="#">Developers</a>
-          <a href="#">Events</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">Safety</a>
-          <a href="#">Blog</a>
-          <a href="#">Press</a>
-          <a href="#">Careers</a>
-          <a href="#">Driver Requirements</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <img src="assets/img/apple-store.svg" alt="">
-          <img src="assets/img/google-play.png" alt="">
-          <img src="assets/img/amazon-badge.5dc73125.png" alt="">
-          <img src="assets/img/microsoft.png" alt="">
-        </li>
-      </ul>
-    </section>
-  <script src="assets/js/main.js"></script>
+    <footer class="seccion8">
+    <ul class="columna">
+      <li class="tituloBlanco">LOG IN</li>
+      <li class="columnaLi"><a href="#" class="columnaLiA">Help</a></li>
+      <li class="columnaLi"><a href="#" class="columnaLiA">Cities</a></li>
+      <li class="columnaLi"><a href="#" class="columnaLiA">Airports</a></li>
+      <li class="columnaLi"><a href="#" class="columnaLiA">Fare Estimate</a></li>
+    </ul>
+    <ul class="columna">
+      <li class="tituloBlanco">PARTNER</li>
+      <li class="columnaLi"><a href="#" class="columnaLiA">Partnerchips</a></li>
+      <li class="columnaLi"><a href="#" class="columnaLiA">Enterprise</a></li>
+      <li class="columnaLi"><a href="#"class="columnaLiA">Ambassadors</a></li>
+      <li class="columnaLi"><a href="#"class="columnaLiA">Developers</a></li>
+    </ul>
+    <ul class="columna">
+      <li class="tituloBlanco">LEARN</li>
+      <li class="columnaLi"><a href="#" class="columnaLiA">Safety</a></li>
+      <li class="columnaLi"><a href="#" class="columnaLiA">Blog</a></li>
+      <li class="columnaLi"><a href="#" class="columnaLiA">Press</a></li>
+      <li class="columnaLi"><a href="#" class="columnaLiA">Careers</a></li>
+    </ul>
+    <ul class="columna">
+      <li class="columnaLi"><img src="assets/img/apple-store.svg" alt="" class="columnaImg"></li>
+      <li class="columnaLi"><img src="assets/img/google-play.png" alt="" class="columnaImg"></li>
+      <li class="columnaLi"><img src="assets/img/microsoft.png" alt="" class="columnaImg"></li>
+    </ul>
+    <div class="redes">
+      <img src="https://cdn.lyft.com/brochure/images/twitter-circle.ac79fb88.svg" class="redesImg">
+      <img src="https://cdn.lyft.com/brochure/images/facebook-circle.dcf54f94.svg" class="redesImg">
+      <img src="https://cdn.lyft.com/brochure/images/instagram-circle.c028ca10.svg" class="redesImg">
+      <br>
+      <hr/>
+    </div>
+    <div class="limpiar"></div>
+  </footer>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>

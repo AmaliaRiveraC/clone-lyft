@@ -1,12 +1,18 @@
+.logoBlanco {
+  background-image: url(assets/img/logo-white.png);
+}
 header{
   background: rgba(51,52,7,0.2);
 }
+
 .logoBlanco{
 display: none;
 }
+
 .logoRosa{
 display: inline-block;
 }
+
 #seccion1{
   position: fixed;
   z-index: 2;
@@ -23,8 +29,8 @@ nav{
   width: 100%;
   display: inline-block;
   float: right;
-
 }
+
 .menu-li{
   display: inline;
   margin: 20px;
@@ -59,7 +65,7 @@ nav{
 
 .seccion-textos {
 	display: inline-block;
-	width: 300px;
+	width: 310px;
 	height: 506px;
 	text-align: left;
 }
@@ -73,20 +79,30 @@ nav{
 	width: 900px;
 	height: 506px;
 	position: relative;
+	padding: 0;
 }
 
 .der {
 	float: right;
-	margin-left: 0;
+
 }
 
 .parrafos {
   font-size: 120%;
 }
+
+.alinearI {
+	margin-left: 30px;
+}
+
+.alinearD {
+	margin-right: 50px;
+}
  /* Estilo seccion2 */
 #seccion2 {
     position: relative;
      overflow: scroll;
+  height: auto;
 }
 #imagen-seccion2 {
     width: 10px;
@@ -96,20 +112,63 @@ nav{
 }
 #contenedor-formulario {
     width: 500px;
-    height: 400px;
+    height: auto;
     left: 600px;
     background-color: white;
-    position: absolute;
+    position: relative;
     padding: 50px;
-}
-#seccion2 a {
-    color: #ff00bf;
+    left:  60%;
+    top: 220px;
 }
 
 #seccion2 h1 {
     color: #352384;
     font-size: 40px;
-    font-family: Gotham SSm A,Gotham SSm B,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.esconderFormulario{
+  display: none;
+}
+
+#seccion2 span{
+
+  display: block;
+  margin: 0;
+  color: #352384;
+  font-size: 15px;
+}
+#seccion2 a {
+    color: #ff00bf;
+}
+#seccion2 input{
+    display: block;
+    margin: 20px 0px 20px 0px;
+    border: 0px;
+    font-size:20px;
+    color: #bfc7d9;
+
+}
+#seccion2 p{
+  font-size: 11px;
+}
+.boton-rosa {
+    background-color: #ff00bf;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 0px;
+    padding: 17px;
+    font-family: inherit;
+    font-weight: 100;
+    display: inline-block;
+    color: white;
+    width: 200px;
+}
+.boton-nada{
+  font-family: inherit;
+  font-size: 20px;
+  border: 0px;
+  color: #728099;
 }
 #contenedor-formulario button {
     background-color: #ff00bf;
@@ -153,4 +212,95 @@ nav{
 .resumen6{
   font-size: 20px;
   font-weight: lighter;
+}
+
+#seccion7{
+  margin-top: 100px;
+  background-color: #352384 ;
+}
+
+.pinUbicacion{
+  position: relative;
+  left: 200px;
+  top: -50px;
+}
+.contenidoUbicacion{
+  width: 700px;
+  position: relative;
+  text-align: justify;
+  left: 800px;
+  bottom: 400px;
+}
+
+.tituloUbicacion{
+  font-size: 35px;
+  color: white;
+}
+
+.pUbicacion{
+  font-size: 20px;
+  color: #9E99A4 ;
+}
+
+.aUbicacion{
+ text-decoration: none;
+ color: #FF00BF ;
+}
+
+/*Estilos footer*/
+
+.seccion8 {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-color: #333447 ;
+}
+
+.columna {
+  float: left;
+  display: inline-block;
+  margin: 30px 0px 0px 40px;
+  width: 18%;
+}
+
+.columnaLi {
+  display: block;
+}
+
+.columnaLiA {
+  color: white;
+  text-decoration: none;
+}
+
+.columnaLiA:hover {
+  color: #FF00BF ;
+}
+
+.columnaImg {
+  width: 167px;
+  height: 50px;
+}
+
+.redes {
+  clear: both;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.redesImg {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  float: left;
+  margin-left: 65px;
+}
+
+.redes hr {
+  display: block;
+  margin-top:40px;
+  margin-bottom: 10px;
+  clear:both;
+}
+.limpiar{
+  clear: both;
+  height: 50px;
 }
