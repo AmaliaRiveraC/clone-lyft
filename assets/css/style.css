@@ -93,6 +93,9 @@ nav{
 }
 
 /*seccion6*/
+#seccion6 {
+    clear: both;
+}
 .producto{
   display: inline-block;
   margin-left: 90px;
