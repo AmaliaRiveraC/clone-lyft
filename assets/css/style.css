@@ -69,6 +69,7 @@ nav{
 }
  /* Estilo seccion2 */
 #seccion2 {
+  height: auto;
 
 }
 #imagen-seccion2 {
@@ -79,7 +80,7 @@ nav{
 }
 #contenedor-formulario {
     width: 500px;
-    height: 330px;
+    height: auto;
     left: 600px;
     background-color: white;
     position: relative;
@@ -93,6 +94,9 @@ nav{
     font-size: 40px;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+.esconderFormulario{
+  display: none;
 }
 
 #seccion2 span{
