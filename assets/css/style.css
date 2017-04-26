@@ -11,3 +11,30 @@ li{
   display: inline;
   margin: 20px;
 }
+
+#seccion2 {
+    position: relative;
+}
+#imagen-seccion2 {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+}
+#contenedor-formulario {
+    width: 500px;
+    height: 400px;
+    left: 600px;
+    background-color: white;
+    position: absolute;
+    padding: 50px;
+}
+#seccion2 a {
+    color: #ff00bf;
+}
+
+#seccion2 h1 {
+    color: #352384;
+    font-size: 40px;
+    font-family: Gotham SSm A,Gotham SSm B,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
