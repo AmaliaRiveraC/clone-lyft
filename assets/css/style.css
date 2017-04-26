@@ -191,6 +191,38 @@ nav{
   font-weight: lighter;
 }
 
+#seccion7{
+  margin-top: 100px;
+  background-color: #352384 ;
+}
+
+.pinUbicacion{
+  position: relative;
+  left: 200px;
+  top: -50px;
+}
+.contenidoUbicacion{
+  width: 700px;
+  position: relative;
+  text-align: justify;
+  left: 800px;
+  bottom: 400px;
+}
+
+.tituloUbicacion{
+  font-size: 35px;
+  color: white;
+}
+
+.pUbicacion{
+  font-size: 20px;
+  color: #9E99A4 ;
+}
+
+.aUbicacion{
+ text-decoration: none;
+ color: #FF00BF ;
+}
 
 /*Estilos footer*/
 
