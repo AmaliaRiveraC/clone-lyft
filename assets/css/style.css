@@ -1,5 +1,7 @@
 header{
   background: rgba(51,52,7,0.2);
+  
+
 }
 .logoBlanco{
   background-image:url(assets/img/logo-white.png);
@@ -8,8 +10,12 @@ header{
   background-image:url(assets/img/logo-pink.png);
 }
 nav{
+
   display: inline-block;
   color: white;
+  margin-left: 700px;
+  margin-top: 20px;
+
 }
 .menu-li{
   display: inline;
