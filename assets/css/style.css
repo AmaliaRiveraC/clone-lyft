@@ -62,7 +62,7 @@ nav{
 }
  /* Estilo seccion2 */
 #seccion2 {
-    position: relative;
+
 }
 #imagen-seccion2 {
     width: 10px;
@@ -72,23 +72,57 @@ nav{
 }
 #contenedor-formulario {
     width: 500px;
-    height: 400px;
+    height: 330px;
     left: 600px;
     background-color: white;
-    position: absolute;
+    position: relative;
     padding: 50px;
-}
-#seccion2 a {
-    color: #ff00bf;
+    left:  60%;
+    top: 220px;
 }
 
 #seccion2 h1 {
     color: #352384;
     font-size: 40px;
-    font-family: Gotham SSm A,Gotham SSm B,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+#seccion2 span{
 
-#contenedor-formulario button {
+  display: block;
+  margin: 0;
+  color: #352384;
+  font-size: 15px;
+}
+#seccion2 a {
+    color: #ff00bf;
+}
+#seccion2 input{
+    display: block;
+    margin: 20px 0px 20px 0px;
+    border: 0px;
+    font-size:20px;
+    color: #bfc7d9;
+
+}
+#seccion2 p{
+  font-size: 11px;
+}
+.boton-rosa {
     background-color: #ff00bf;
-    border-radius: 15%;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 0px;
+    padding: 17px;
+    font-family: inherit;
+    font-weight: 100;
+    display: inline-block;
+    color: white;
+    width: 200px;
+}
+.boton-nada{
+  font-family: inherit;
+  font-size: 20px;
+  border: 0px;
+  color: #728099;
 }
