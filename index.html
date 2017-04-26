@@ -12,9 +12,9 @@
             <nav>
               <div id="logo" class="logoBlanco"></div>
                 <ul class="menu">
-                    <a><li>Drive</li></a>
-                    <a><li>Explore</li></a>
-                    <a><li>Help</li></a>
+                    <a><li class="menu-li">Drive</li></a>
+                    <a><li class="menu-li">Explore</li></a>
+                    <a><li class="menu-li">Help</li></a>
                 </ul>
                 <button id="login">Log in</button>
             </nav>
@@ -27,11 +27,18 @@
                 <form>
                     <h1><strong>TURN MILES <br> INTO MONEY</strong></h1>
                     <p>SIGN UP TO DRIVE WITH LYFT.</p>
-                    <input placeholder="Phone Number">
-                    <button >Become a Driver</button>
-                    <button >Sign Up to Ride</button>
-                    <p>Already applied? <a >Check the status of your application here.</a></p>
-                    <p>Earn money for inviting friends to drive.<a > Learn more</a></p>
+                    <input placeholder="Phone Number" id="ingresarNumero">
+                    <div id="imputsEscondidos">
+                      <input type="text" placeholder="First Name" name="" value="">
+                      <input type="Email" placeholder="Email" name="" value="">
+                      <input type="text" placeholder="City" name="" value="">
+                      <a href="#">Promo code?</a>
+                      <input type="checkbox" name="" value=""><p>I agree to lyft´s Terms of Service</p>
+                    </div>
+                    <button type="button" id="enviarFormulario">Become a Driver</button>
+                    <button type="button" id="signRide">Sign Up to Ride</button>
+                    <p>Already applied? <a>Check the status of your application here.</a></p>
+                    <p>Earn money for inviting friends to drive.<a> Learn more</a></p>
                 </form>
             </div>
             <div>
@@ -57,7 +64,7 @@
               and drivers to find each other.
             </p>
           </div>
-          <div>
+          <div>    
            <a href=""><img class="imgV der" src="assets/img/img-video1.png"></a>
          </div> 
         </section>
@@ -84,19 +91,23 @@
 		</div>
 	</section>
 	<section id="seccion6">
-		<div>
-			<p>PRODUCT</p>
-			<h3>NOW LIVE: SCHEDULED RIDES</h3>
-			<p>Now you can schedule Lyft rides up to seven days in advance and relax knowing your ride will be there when you need it. Whether you’re catching a flight or a show across town, you’ll have one less thing to worry about.</p>
-			<button>Learn More</button>
-		</div>
-		<div>
-			<p>NEWS</p>
-			<h3>SIT FOR SOMETHING</h3>
-			<p>Taking a seat can make a difference. What if we leveraged this opportunity to accomplish more? What if we harnessed the collective might of our community? Starting in a few weeks, Lyft will be launching a new feature called Round Up and Donate.</p>
-			<button>Learn More</button>
-    </div>          
-  </section>     
+    <div class="">
+      <div class="producto">
+  			<p class="titulo6">PRODUCT</p>
+  			<h3 class="tema6">NOW LIVE: SCHEDULED RIDES</h3>
+  			<p class="resumen6">Now you can schedule Lyft rides up to seven days in advance and relax knowing your ride will be there when you need it. Whether you’re catching a flight or a show across town, you’ll have one less thing to worry about.</p>
+        <br>
+  			<button>Learn More</button>
+  		</div>
+  		<div class="noticias">
+  			<p class="titulo6">NEWS</p>
+  			<h3 class="tema6">SIT FOR SOMETHING</h3>
+  			<p class="resumen6">Taking a seat can make a difference. What if we leveraged this opportunity to accomplish more? What if we harnessed the collective might of our community? Starting in a few weeks, Lyft will be launching a new feature called Round Up and Donate.</p>
+  			<button>Learn More</button>
+      </div>
+    </div> 
+		<!-- siguiente seccion7-->
+  </section>
      <section class="seccion7">
       <div class="">
         <img src="assets/img/pin.png" alt="location">
@@ -149,5 +160,7 @@
         </li>
       </ul>
     </section>
+    <!-- checar el script con Lucero -->
+    <script src="assets/js/main.js"></script>
     </body>
 </html>
