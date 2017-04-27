@@ -127,7 +127,7 @@ nav {
 /* Estilo seccion2 */
 
 #seccion2 {
-  position: relative;
+      position: relative;
       width: 100%;
       height: 100%;
       background-color: #6c1d86;
@@ -153,14 +153,17 @@ nav {
 }
 
 #seccion2 h1 {
-  color: #352384;
-  font-size: 40px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+    color: #352384;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .esconderFormulario {
   display: none;
+}
+.extenderFormulario{
+  display: inline-block;
 }
 
 #seccion2 span {
@@ -171,6 +174,10 @@ nav {
 }
 
 #seccion2 a {
+    color: #ff00bf;
+    text-decoration: none;
+}
+#ponerSubrayado{
   color: #ff00bf;
 }
 
@@ -179,16 +186,24 @@ nav {
   margin-bottom: 15px;
 }
 
-#seccion2 input {
-  display: block;
-  margin: 20px 0px 20px 0px;
-  border: 0px;
-  font-size: 20px;
-  color: #bfc7d9;
+#seccion2 input.salto{
+    display: block;
+    width: 496px;
+}
+#seccion2 input{
+    margin: 20px 0px 20px 0px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    font-size:20px;
+    color: #bfc7d9;
 }
 
 #seccion2 p {
   font-size: 11px;
+}
+
+.terminos{
+  display: block;
 }
 
 .boton-rosa {
@@ -255,6 +270,7 @@ nav {
 #seccion7 {
   margin-top: 100px;
   background-color: #352384;
+  margin-bottom: 0px;
 }
 
 .pinUbicacion {
@@ -290,6 +306,7 @@ nav {
 /*Estilos footer*/
 
 .seccion8 {
+  margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
   background-color: #333447;
@@ -298,35 +315,35 @@ nav {
 .columna {
   float: left;
   display: inline-block;
-  margin: 30px 0px 0px 40px;
-  width: 18%;
+  margin: 30px 0px 0px 0px;
+  width: calc((100%-1%)/5);
 }
 
-.columnaLi {
+.columna>li {
   display: block;
 }
 
-.columnaLiA {
+.columna>li>a {
   color: white;
   text-decoration: none;
 }
 
-.columnaLiA:hover {
+.columna>li>a:hover {
   color: #FF00BF;
 }
 
-.columnaImg {
+.columna>li>img {
   width: 167px;
   height: 50px;
 }
 
 .redes {
   clear: both;
-  width: 30%;
+  width: 34%;
   margin: 0 auto;
 }
 
-.redesImg {
+.redes>img {
   width: 30px;
   height: 30px;
   display: inline-block;
