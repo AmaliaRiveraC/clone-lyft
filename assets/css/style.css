@@ -245,33 +245,54 @@ left: 192%;
   font-weight: lighter;
 }
 
+.leerMas{
+  font-size: 17px;
+  color: #333447;
+  font-weight: bold;
+  width: 25%;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 10%;
+  border: 1px solid #333447;
+  background-color: inherit;
+  margin-top: 15px;
+}
+
 #seccion7 {
   margin-top: 100px;
   background-color: #352384;
+  height: 300px;
 }
 
 .pinUbicacion {
   position: relative;
-  left: 200px;
+  left: 150px;
   top: -50px;
 }
 
+.ubicacion{
+  width: 16.5%;
+  height: 16.5%;
+}
+
 .contenidoUbicacion {
-  width: 700px;
+  width: 40%;
   position: relative;
   text-align: justify;
-  left: 800px;
-  bottom: 400px;
+  left: 690px;
+  bottom: 300px;
 }
 
 .tituloUbicacion {
-  font-size: 35px;
+  font-size: 26px;
   color: white;
+  letter-spacing: .03em;
 }
 
 .pUbicacion {
-  font-size: 20px;
+  font-size: 18px;
   color: #9E99A4;
+  margin-bottom: 0;
 }
 
 .aUbicacion {
