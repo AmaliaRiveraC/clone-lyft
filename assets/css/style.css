@@ -1,15 +1,6 @@
-.logoBlanco {
-  background-image: url(assets/img/logo-white.png);
-}
-header{
-  background: rgba(51,52,7,0.2);
-}
+
 
 .logoBlanco{
-display: none;
-}
-
-.logoRosa{
 display: inline-block;
 }
 
@@ -20,15 +11,17 @@ display: inline-block;
 }
 ul{
   display: inline-block;
+  float: right;
+margin-right: 15%;
+
 }
 #logo{
-  width: 100%;
-  display: inline-block;
+display: inline-block;
 }
 nav{
   width: 100%;
   display: inline-block;
-  float: right;
+
 }
 
 .menu-li{
@@ -47,6 +40,7 @@ nav{
 
 }
 #login{
+  display: none;
   font-family: inherit;
   color: white;
   border: 1px solid white;
@@ -54,6 +48,9 @@ nav{
   border-radius: 8px;
   padding: 7px;
   width: 90px;
+  position: absolute;
+    right: 8px;
+    top: 10px;
 }
 #login:hover{
   background: white;

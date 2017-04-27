@@ -1,34 +1,41 @@
 var logo = document.getElementById('logo');
 var imgBlanco = document.createElement('img');
-var imgRosa = document.createElement('img');
 
-
-logo.style.border= 4;
 imgBlanco.src = "assets/img/logo-white.png";
 imgBlanco.className = "logoBlanco";
-imgRosa.src = "assets/img/logo-pink.png";
-imgRosa.className = "logoRosa";
+
 
 logo.appendChild(imgBlanco);
-logo.appendChild(imgRosa);
+
 
 
 document.addEventListener("scroll", function () {
 cambioClase();
-cambiarTexto();
+// cambiarTexto();
+// cambiarImagen();
+// aparecerBoton();
+aparecerBoton();
 });
 
 function cambioClase() {
   var encabezado = document.getElementById('seccion1');
     encabezado.style.background = "white";
-
+    imgBlanco.src = "assets/img/logo-pink.png";
+    var menu= document.getElementsByClassName("menu-li");
+    for (var i = 0; i < menu.length; i++) {
+      menu[i].className = "menu-li textoNegro";
+    }
 }
-function cambiarTexto() {
-  var menu= document.getElementsByClassName("menu-li");
-  for (var i = 0; i < menu.length; i++) {
-    menu[i].className = "menu-li textoNegro";
-  }
-};
+// function cambiarImagen() {
+//
+// }
+// function cambiarTexto() {
+//
+// };
+function aparecerBoton() {
+  var botonMostrar = document.getElementById('login');
+  botonMostrar.style.display = "inline-block";
+}
 
 
 
@@ -59,4 +66,3 @@ function cambiarColorBotonARosa(){
   //esta funcion es para cambiar los colores de los botones del formulario
 
 }
-
