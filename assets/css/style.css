@@ -66,19 +66,19 @@ nav {
 
 #texto {
   color: white;
-    position: relative;
-    display: inline-block;
-    margin-top: 40%;
-    margin-left: 6%;
-    font-size: 2rem;
-    margin-bottom: 10%;
+  position: relative;
+  display: inline-block;
+  margin-top: 40%;
+  margin-left: 6%;
+  font-size: 2rem;
+  margin-bottom: 10%;
 }
 
 #imagenTelefono {
   display: inline-block;
-position: absolute;
-top: -24%;
-left: 192%;
+  position: absolute;
+  top: -24%;
+  left: 192%;
 }
 
 .seccion-textos {
@@ -94,7 +94,7 @@ left: 192%;
 
 .imgV {
   display: inline;
-  width: 900px;
+  width: 850px;
   height: 506px;
   position: relative;
   padding: 0;
@@ -115,7 +115,14 @@ left: 192%;
 .alinearD {
   margin-right: 50px;
 }
-
+.seccion-textos>p:first-child{
+  margin-top: 45%;
+  letter-spacing: 0.2em;
+}
+.seccion-textos>h3{
+  font-size: 20px;
+  letter-spacing: 0.2em;
+}
 
 /* Estilo seccion2 */
 
