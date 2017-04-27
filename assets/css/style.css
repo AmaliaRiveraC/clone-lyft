@@ -85,20 +85,18 @@ nav:hover{
     display: inline-block;
     margin-top: 50%;
     margin-left: 12%;
-    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 #imagenTelefono {
   display: inline-block;
-  position: absolute;
-  left: 138%;
-  top: 11%;
-  width: 104%;
-
+  left: 90%;
+  top: 10px;
+  z-index: 2;
 }
 .telefono{
-  width:100%;
-  margin-top: -3%;
+  width:450px;
+  height: 450px;
 }
 
 .tituloTexto{
