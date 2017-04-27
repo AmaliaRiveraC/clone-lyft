@@ -4,7 +4,7 @@
 
 #seccion1 {
   position: fixed;
-  z-index: 2;
+  z-index: 5;
   width: 100%;
 }
 
@@ -68,26 +68,24 @@ nav {
     color: white;
     position: relative;
     display: inline-block;
-    margin-top: 40%;
-    margin-left: 16%;
+    margin-top: 67%;
+    margin-left: 9%;
     font-size: x-large;
-    margin-bottom: auto;
+    margin-bottom: 5%;
   }
 
 
 #imagenTelefono {
   display: inline-block;
   position: absolute;
-  top: -74%;
-  left: 102%;
+  left: 105%;
+  top: 11%;
+  width: 177%;
 
 }
 #imagenTel{
-  width: 450px;
-  height: 450px;
-  margin-top: 70%;
-
-
+  width: 60%;
+  margin-top: -3%;
 }
 
 
@@ -154,12 +152,13 @@ nav {
 
 #contenedor-formulario {
   width: 40%;
-      height: auto;
-      background-color: white;
-      position: absolute;
-      padding: 1.5%;
-      right: 0%;
-      top: 100px;
+  height: auto;
+  background-color: white;
+  position: absolute;
+  padding: 1.5%;
+  right: 0%;
+  top: 100px;
+  z-index: 2;
 }
 
 #seccion2 h1 {
