@@ -2,7 +2,11 @@ body{
   font-family: 'Nunito Sans', sans-serif, helvetica, sans-serif;
   color: #333447;
   margin: 0 auto;
-  height: 5000px;
+  width: 100%
+  height: auto;
+}
+header{
+  background: rgba(51,52,7,0.2);
 }
 h1{
   font-family: inherit;
