@@ -43,26 +43,48 @@ function aparecerBoton() {
 var botonEnviarForm = document.getElementById("enviarFormulario");
 var botonSignRide = document.getElementById("signRide");
 var inputIngresarNumero = document.getElementById("ingresarNumero");
+var tituloFormulario=document.getElementById("tituloFormulario");
+var textoSpanFormulario=document.getElementById("textoSpanFormulario")
 
 botonEnviarForm.addEventListener("click",mostrarFormularioCompleto);
+botonEnviarForm.addEventListener("click",cambiarColorBotonRosa);
+botonEnviarForm.addEventListener("click",cambiarTextoTurnMiles)
 
 botonSignRide.addEventListener("click",esconderFormularioCompleto);
+botonSignRide.addEventListener("click",cambiarColorBotonNada);
+botonSignRide.addEventListener("click", cambiarTextoMeetYour);
+
 inputIngresarNumero.addEventListener("click",mostrarFormularioCompleto);
 var divformulario= document.getElementById("imputsEscondidos");
 
 function mostrarFormularioCompleto(){
   /*esta funcion debe de extender el formulario completo*/
-  divformulario.style.visibility="visible";
   divformulario.className="extenderFormulario"; //clase a checar con estilos
 }
 
 function esconderFormularioCompleto(){
   /*esta funcion debe de esconder el formulario*/
-  divformulario.style.visibility="hidden";
   divformulario.className="esconderFormulario" //Esconde el formulario desde el css checar con estilos
 }
 
-function cambiarColorBotonARosa(){
+function cambiarColorBotonRosa(){
   //esta funcion es para cambiar los colores de los botones del formulario
+  botonEnviarForm.className="boton-rosa";
+  botonSignRide.className="boton-nada";
+}
 
+function cambiarColorBotonNada(){
+  botonEnviarForm.className="boton-nada";
+  botonSignRide.className="boton-rosa";
+}
+
+function cambiarTextoMeetYour(){
+    tituloFormulario.innerHTML="<strong>MEET YOUR <br> 5-STAR RIDE</strong>";
+    textoSpanFormulario.innerHTML="SING UP FOR RIDE IN A TAP.";
+}
+
+function cambiarTextoTurnMiles(){
+    //
+    tituloFormulario.innerHTML="<strong>TURN MILES <br> INTO MONEY</strong>";
+    textoSpanFormulario.innerHTML="SIGN UP TO DRIVE WITH LYFT.";
 }

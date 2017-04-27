@@ -49,8 +49,8 @@ nav{
   padding: 7px;
   width: 90px;
   position: absolute;
-    right: 8px;
-    top: 10px;
+  right: 8px;
+  top: 10px;
 }
 #login:hover{
   background: white;
@@ -98,8 +98,8 @@ nav{
  /* Estilo seccion2 */
 #seccion2 {
     position: relative;
-     overflow: scroll;
-  height: auto;
+    overflow: scroll;
+    height: auto;
 }
 #imagen-seccion2 {
     width: 10px;
@@ -120,12 +120,15 @@ nav{
 
 #seccion2 h1 {
     color: #352384;
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 .esconderFormulario{
   display: none;
+}
+.extenderFormulario{
+  display: inline-block;
 }
 
 #seccion2 span{
@@ -136,15 +139,24 @@ nav{
 }
 #seccion2 a {
     color: #ff00bf;
+    text-decoration: none;
+}
+#ponerSubrayado{
+
 }
 #seccion2 .linea{
    width: 350px;
    margin-bottom: 15px;
 }
-#seccion2 input{
+#seccion2 input.salto{
     display: block;
+    width: 496px;
+}
+#seccion2 input{
+
     margin: 20px 0px 20px 0px;
     border: 0px;
+    border-bottom: 1px solid black;
     font-size:20px;
     color: #bfc7d9;
 
@@ -152,6 +164,10 @@ nav{
 #seccion2 p{
   font-size: 11px;
 }
+.terminos{
+  display: block;
+}
+
 .boton-rosa {
   background-color: #ff00bf;
   border-radius: 10px;
