@@ -42,8 +42,8 @@ function aparecerBoton() {
 var botonEnviarForm = document.getElementById("enviarFormulario");
 var botonSignRide = document.getElementById("signRide");
 var inputIngresarNumero = document.getElementById("ingresarNumero");
-var tituloFormulario=document.getElementById("tituloFormulario");
-var textoSpanFormulario=document.getElementById("textoSpanFormulario")
+//var tituloFormulario=document.getElementById("tituloFormulario");
+//var textoSpanFormulario=document.getElementById("textoSpanFormulario")
 
 
 botonEnviarForm.addEventListener("click",mostrarFormularioCompleto);
@@ -70,7 +70,7 @@ function esconderFormularioCompleto() {
 
 
 
-function cambiarColorBotonARosa() {
+function cambiarColorBotonRosa() {
   //esta funcion es para cambiar los colores de los botones del formulario
   botonEnviarForm.className="boton-rosa";
   botonSignRide.className="boton-nada";
