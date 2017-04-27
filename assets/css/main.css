@@ -1,9 +1,9 @@
 body{
   font-family: 'Quicksand', helvetica, sans-serif;
   color: #333447;
-  margin: 0 auto;
+  margin: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 header{
   background: rgba(51,52,7,0.2);
