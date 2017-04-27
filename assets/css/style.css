@@ -4,29 +4,37 @@
 
 #seccion1 {
   position: fixed;
-  z-index: 2;
+  z-index: 5;
   width: 100%;
+  height: 20%;
 }
 
 ul {
   display: inline-block;
-  float: right;
-  margin-right: 15%;
+  margin-left: 20%;
+  margin-right: 20%%;
 }
 
 #logo {
   display: inline-block;
+  margin-top: 2%;
+  margin-left: 8%;
+  margin-right: 30%;
+  width: 5%;
 }
 
 nav {
   width: 100%;
   display: inline-block;
+  margin-top: 2%;
+}
+nav:hover{
+  color: #FF00BF;
 }
 
 .menu-li {
-  display: inline;
-  margin: 2%;
-  font-size: 1em;
+  display: inline-block;
+  font-size: 1.5em;
   list-style: none;
   color: white;
 }
@@ -37,9 +45,16 @@ nav {
 .textoNegro {
   display: inline;
   margin: 20px;
-  font-size: 20px;
+  font-size: 2rem;
   list-style: none;
   color: black;
+}
+.textoBlanco {
+  display: inline;
+  margin: 20px;
+  font-size: 2rem;
+  list-style: none;
+  color: white;
 }
 
 #login {
@@ -73,6 +88,7 @@ nav {
     padding-top: 30px;
 }
 
+
 .tituloTexto{
   font-size: 30px;
   line-height: .01em;
@@ -81,6 +97,7 @@ nav {
   font-size: 17px;
   padding-top: 5px;
 }
+
 #imagenTelefono {
   display: inline-block;
   z-index: 2;
@@ -94,19 +111,24 @@ nav {
 }
 
 
+
+
 .seccion-textos {
   display: inline-block;
-  width: 310px;
-  height: 506px;
-  text-align: left;
+  width: 30%;
 }
 
 .p1 {
   float: left;
 }
 
-.imgV {
+.displayInline{
   display: inline;
+}
+.ocultar{
+  display: none;
+}
+.imgV {
   width: 850px;
   height: 506px;
   position: relative;
@@ -117,23 +139,24 @@ nav {
   float: right;
 }
 
+
 .parrafos {
-  font-size: 120%;
+  font-size: 17px;
 }
 
 .alinearI {
-  margin-left: 30px;
+  margin-left: 14%;
 }
 
 .alinearD {
-  margin-right: 50px;
+  margin-right: 14%;
 }
 .seccion-textos>p:first-child{
-  margin-top: 45%;
+  margin-top: 45%; 
   letter-spacing: 0.2em;
 }
 .seccion-textos>h3{
-  font-size: 20px;
+  font-size: 25px;
   letter-spacing: 0.2em;
 }
 
@@ -144,6 +167,7 @@ nav {
       width: 100%;
       height: 100%;
       background-color: #6c1d86;
+
 }
 
 #imagen-seccion2 {
@@ -157,12 +181,13 @@ nav {
 
 #contenedor-formulario {
   width: 40%;
-      height: auto;
-      background-color: white;
-      position: absolute;
-      padding: 1.5%;
-      right: 0%;
-      top: 100px;
+  height: auto;
+  background-color: white;
+  position: absolute;
+  padding: 1.5%;
+  right: 0%;
+  top: 100px;
+  z-index: 2;
 }
 
 #seccion2 h1 {
@@ -248,18 +273,14 @@ nav {
 
 .producto {
   display: inline-block;
-  margin-left: 90px;
-  padding: 40px;
+  margin-left: 10%;
   width: 500px;
-  text-align: justify;
 }
 
 .noticias {
   display: inline-block;
-  margin-right: 90px;
-  padding: 40px;
+  margin-left: 3%;
   width: 500px;
-  text-align: justify;
 }
 
 .titulo6 {
