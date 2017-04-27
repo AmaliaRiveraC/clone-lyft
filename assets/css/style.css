@@ -83,25 +83,34 @@ nav:hover{
     color: white;
     position: relative;
     display: inline-block;
-    margin-top: 67%;
-    margin-left: 9%;
-    font-size: x-large;
-    margin-bottom: 5%;
-  }
+    margin-top: 50%;
+    margin-left: 12%;
+    padding-top: 30px;
+}
 
+
+.tituloTexto{
+  font-size: 30px;
+  line-height: .01em;
+}
+.resumentexto{
+  font-size: 17px;
+  padding-top: 5px;
+}
 
 #imagenTelefono {
   display: inline-block;
-  position: absolute;
-  left: 105%;
-  top: 11%;
-  width: 177%;
+  z-index: 2;
+  top: 10px;
+  left: 90%;
+}
 
+.telefono{
+  width: 450px;
+  height: 450px;
 }
-#imagenTel{
-  width: 60%;
-  margin-top: -3%;
-}
+
+
 
 
 .seccion-textos {
@@ -227,12 +236,9 @@ nav:hover{
     color: #bfc7d9;
 }
 
-#seccion2 p {
-  font-size: 11px;
-}
-
 .terminos{
   display: block;
+  font-size: 11px;
 }
 
 .boton-rosa {
@@ -284,7 +290,8 @@ nav:hover{
 
 .tema6 {
   font-size: 25px;
-  font-weight: bold;
+  font-weight: bolder;
+
 }
 
 .resumen6 {
