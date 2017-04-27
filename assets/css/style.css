@@ -102,8 +102,13 @@ nav {
   float: left;
 }
 
-.imgV {
+.displayInline{
   display: inline;
+}
+.ocultar{
+  display: none;
+}
+.imgV {
   width: 850px;
   height: 506px;
   position: relative;
@@ -113,6 +118,7 @@ nav {
 .der {
   float: right;
 }
+
 
 .parrafos {
   font-size: 120%;
