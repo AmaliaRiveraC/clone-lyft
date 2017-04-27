@@ -1,45 +1,48 @@
-
-
-.logoBlanco{
-display: inline-block;
+.logoBlanco {
+  display: inline-block;
 }
 
-#seccion1{
+#seccion1 {
   position: fixed;
   z-index: 2;
   width: 100%;
 }
-ul{
+
+ul {
   display: inline-block;
   float: right;
-margin-right: 15%;
+  margin-right: 15%;
+}
 
+#logo {
+  display: inline-block;
 }
-#logo{
-display: inline-block;
-}
-nav{
+
+nav {
   width: 100%;
   display: inline-block;
-
 }
 
-.menu-li{
+.menu-li {
   display: inline;
-  margin: 20px;
-  font-size: 20px;
+  margin: 2%;
+  font-size: 1em;
   list-style: none;
   color: white;
 }
-.textoNegro{
+.menu-li:hover{
+  color: #FF00BF;
+}
+
+.textoNegro {
   display: inline;
   margin: 20px;
   font-size: 20px;
   list-style: none;
   color: black;
-
 }
-#login{
+
+#login {
   display: none;
   font-family: inherit;
   color: white;
@@ -49,39 +52,56 @@ nav{
   padding: 7px;
   width: 90px;
   position: absolute;
-    right: 8px;
-    top: 10px;
+  right: 8px;
+  top: 10px;
 }
-#login:hover{
-  background: white;
-  opacity:.2;
+
+#login:hover {
+  color: #FF00BF;
+  opacity: .2;
 }
 
 
 /*Seccion 3-5*/
 
+#texto {
+  color: white;
+    position: relative;
+    display: inline-block;
+    margin-top: 40%;
+    margin-left: 6%;
+    font-size: 2rem;
+    margin-bottom: 10%;
+}
+
+#imagenTelefono {
+  display: inline-block;
+position: absolute;
+top: -24%;
+left: 192%;
+}
+
 .seccion-textos {
-	display: inline-block;
-	width: 310px;
-	height: 506px;
-	text-align: left;
+  display: inline-block;
+  width: 310px;
+  height: 506px;
+  text-align: left;
 }
 
 .p1 {
-	float: left;
+  float: left;
 }
 
 .imgV {
-	display: inline;
-	width: 900px;
-	height: 506px;
-	position: relative;
-	padding: 0;
+  display: inline;
+  width: 900px;
+  height: 506px;
+  position: relative;
+  padding: 0;
 }
 
 .der {
-	float: right;
-
+  float: right;
 }
 
 .parrafos {
@@ -89,69 +109,81 @@ nav{
 }
 
 .alinearI {
-	margin-left: 30px;
+  margin-left: 30px;
 }
 
 .alinearD {
-	margin-right: 50px;
+  margin-right: 50px;
 }
- /* Estilo seccion2 */
+
+
+/* Estilo seccion2 */
+
 #seccion2 {
-    position: relative;
-     overflow: scroll;
-  height: auto;
+  position: relative;
+      width: 100%;
+      height: 100%;
+      background-color: #6c1d86;
 }
+
 #imagen-seccion2 {
-    width: 10px;
-    height: 10px;
-    position: absolute;
-    left: 0;
+  background-image: url(fondos/homepage-lyft.jpg);
+  background-size: cover;
+  background-repeat: round;
+  width: 100%;
+  height: 50%;
+  position: absolute;
 }
+
 #contenedor-formulario {
-    width: 500px;
-    height: auto;
-    left: 600px;
-    background-color: white;
-    position: relative;
-    padding: 50px;
-    left:  60%;
-    top: 220px;
+  width: 40%;
+      height: auto;
+      background-color: white;
+      position: absolute;
+      padding: 1.5%;
+      right: 0%;
+      top: 220px;
 }
 
 #seccion2 h1 {
-    color: #352384;
-    font-size: 40px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  color: #352384;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-.esconderFormulario{
+
+.esconderFormulario {
   display: none;
 }
 
-#seccion2 span{
+#seccion2 span {
   display: block;
   margin: 0;
   color: #352384;
   font-size: 15px;
 }
-#seccion2 a {
-    color: #ff00bf;
-}
-#seccion2 .linea{
-   width: 350px;
-   margin-bottom: 15px;
-}
-#seccion2 input{
-    display: block;
-    margin: 20px 0px 20px 0px;
-    border: 0px;
-    font-size:20px;
-    color: #bfc7d9;
 
+#seccion2 a {
+  color: #ff00bf;
 }
-#seccion2 p{
+
+#seccion2 .linea {
+  width: 350px;
+  margin-bottom: 15px;
+}
+
+#seccion2 input {
+  display: block;
+  margin: 20px 0px 20px 0px;
+  border: 0px;
+  font-size: 20px;
+  color: #bfc7d9;
+}
+
+#seccion2 p {
   font-size: 11px;
 }
+
 .boton-rosa {
   background-color: #ff00bf;
   border-radius: 10px;
@@ -164,7 +196,8 @@ nav{
   color: white;
   width: 200px;
 }
-.boton-nada{
+
+.boton-nada {
   font-family: inherit;
   font-size: 20px;
   border: 0px;
@@ -174,13 +207,14 @@ nav{
   text-decoration: underline;
 }
 
+
 /*seccion6*/
 
 #seccion6 {
-    clear: both;
+  clear: both;
 }
 
-.producto{
+.producto {
   display: inline-block;
   margin-left: 90px;
   padding: 40px;
@@ -188,7 +222,7 @@ nav{
   text-align: justify;
 }
 
-.noticias{
+.noticias {
   display: inline-block;
   margin-right: 90px;
   padding: 40px;
@@ -196,34 +230,33 @@ nav{
   text-align: justify;
 }
 
-.titulo6{
+.titulo6 {
   font-size: 15px;
   font-weight: bold;
-
 }
 
-.tema6{
+.tema6 {
   font-size: 25px;
   font-weight: bold;
-
 }
 
-.resumen6{
+.resumen6 {
   font-size: 20px;
   font-weight: lighter;
 }
 
-#seccion7{
+#seccion7 {
   margin-top: 100px;
-  background-color: #352384 ;
+  background-color: #352384;
 }
 
-.pinUbicacion{
+.pinUbicacion {
   position: relative;
   left: 200px;
   top: -50px;
 }
-.contenidoUbicacion{
+
+.contenidoUbicacion {
   width: 700px;
   position: relative;
   text-align: justify;
@@ -231,27 +264,28 @@ nav{
   bottom: 400px;
 }
 
-.tituloUbicacion{
+.tituloUbicacion {
   font-size: 35px;
   color: white;
 }
 
-.pUbicacion{
+.pUbicacion {
   font-size: 20px;
-  color: #9E99A4 ;
+  color: #9E99A4;
 }
 
-.aUbicacion{
- text-decoration: none;
- color: #FF00BF ;
+.aUbicacion {
+  text-decoration: none;
+  color: #FF00BF;
 }
+
 
 /*Estilos footer*/
 
 .seccion8 {
   margin-bottom: 0px;
   margin-left: 0px;
-  background-color: #333447 ;
+  background-color: #333447;
 }
 
 .columna {
@@ -271,7 +305,7 @@ nav{
 }
 
 .columnaLiA:hover {
-  color: #FF00BF ;
+  color: #FF00BF;
 }
 
 .columnaImg {
@@ -295,11 +329,12 @@ nav{
 
 .redes hr {
   display: block;
-  margin-top:40px;
+  margin-top: 40px;
   margin-bottom: 10px;
-  clear:both;
+  clear: both;
 }
-.limpiar{
+
+.limpiar {
   clear: both;
   height: 50px;
 }
