@@ -93,9 +93,7 @@ nav {
 
 .seccion-textos {
   display: inline-block;
-  width: 310px;
-  height: 506px;
-  text-align: left;
+  width: 30%;
 }
 
 .p1 {
@@ -115,22 +113,22 @@ nav {
 }
 
 .parrafos {
-  font-size: 120%;
+  font-size: 17px;
 }
 
 .alinearI {
-  margin-left: 30px;
+  margin-left: 14%;
 }
 
 .alinearD {
-  margin-right: 50px;
+  margin-right: 14%;
 }
 .seccion-textos>p:first-child{
-  margin-top: 45%;
+  margin-top: 45%; 
   letter-spacing: 0.2em;
 }
 .seccion-textos>h3{
-  font-size: 20px;
+  font-size: 25px;
   letter-spacing: 0.2em;
 }
 
@@ -273,34 +271,54 @@ nav {
   font-weight: lighter;
 }
 
+.leerMas{
+  font-size: 17px;
+  color: #333447;
+  font-weight: bold;
+  width: 25%;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 10%;
+  border: 1px solid #333447;
+  background-color: inherit;
+  margin-top: 15px;
+}
+
 #seccion7 {
   margin-top: 100px;
   background-color: #352384;
-  margin-bottom: 0px;
+  height: 300px;
 }
 
 .pinUbicacion {
   position: relative;
-  left: 200px;
+  left: 150px;
   top: -50px;
 }
 
+.ubicacion{
+  width: 16.5%;
+  height: 16.5%;
+}
+
 .contenidoUbicacion {
-  width: 700px;
+  width: 40%;
   position: relative;
   text-align: justify;
-  left: 800px;
-  bottom: 400px;
+  left: 690px;
+  bottom: 300px;
 }
 
 .tituloUbicacion {
-  font-size: 35px;
+  font-size: 26px;
   color: white;
+  letter-spacing: .03em;
 }
 
 .pUbicacion {
-  font-size: 20px;
+  font-size: 18px;
   color: #9E99A4;
+  margin-bottom: 0;
 }
 
 .aUbicacion {
