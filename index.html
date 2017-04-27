@@ -1,119 +1,114 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-  <meta charset="utf-8">
-  <title>A ride whenever you need one - Lyft</title>
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="shortcut icon" type="image/x-icon" href="assets/img/lyft.png">
-</head>
-
-<body>
-  <header id="seccion1">
-    <nav>
-      <div id="logo"></div>
-      <ul class="menu">
-        <li class="menu-li"><a>Drive</a></li>
-        <li class="menu-li"><a>Explore</a></li>
-        <li class="menu-li"><a>Help</a></li>
-      </ul>
-      <button id="login">Log in</button>
-    </nav>
-  </header>
-  <section id="seccion2">
-    <div id="imagen-seccion2">
-
-
-    </div>
-    <div id="contenedor-formulario">
-      <form>
-        <h1><strong>TURN MILES <br> INTO MONEY</strong></h1>
-        <span>SIGN UP TO DRIVE WITH LYFT.</span>
-        <input placeholder="Phone Number" id="ingresarNumero">
-        <div class="linea">
-          <hr>
+  <head>
+    <meta charset="utf-8">
+    <title>A ride whenever you need one - Lyft</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/lyft.png">
+  </head>
+  <body >
+    <header id="seccion1">
+        <nav>
+          <div id="logo" ></div>
+            <ul class="menu">
+                <li class="menu-li"><a>Drive</a></li>
+                <li class="menu-li"><a>Explore</a></li>
+                <li class="menu-li"><a>Help</a></li>
+            </ul>
+            <button id="login">Log in</button>
+        </nav>
+    </header>
+    <section id="seccion2">
+        <div id="imagen-seccion2">
+            <img src="assets/img/homepage-lyft.jpg">
         </div>
-        <div class="esconderFormulario" id="imputsEscondidos">
-          <input type="text" placeholder="First Name" name="" value="">
-          <input type="Email" placeholder="Email" name="" value="">
-          <input type="text" placeholder="City" name="" value="">
-          <a href="#">Promo code?</a>
-          <input type="checkbox" name="" value="">
-          <p>I agree to lyft´s Terms of Service</p>
+        <div id="contenedor-formulario">
+            <form>
+                <h1 id="tituloFormulario"><strong>TURN MILES <br> INTO MONEY</strong></h1>
+                <span id="textoSpanFormulario" >SIGN UP TO DRIVE WITH LYFT.</span>
+                <input placeholder="Phone Number" class="salto" id="ingresarNumero">
+                <!-- <div class="linea"><hr></div> -->
+                <div class="esconderFormulario " id="imputsEscondidos">
+                  <input type="text" placeholder="First Name" name="" value="">
+                  <input type="text" placeholder="Last Name" name="" value="">
+                  <input type="Email" placeholder="Email" class="salto" name="" value="">
+                  <input type="text" placeholder="City" name=""  value="">
+                  <a href="#" id="ponerSubrayado">Promo code?</a>
+                  <p class="terminos"><input type="checkbox" name="" value=""> I agree to <a href="#">lyft´s Terms of Service</a></p>
+                </div>
+                <button type="button" class="boton-rosa" id="enviarFormulario">Become a Driver</button>
+                <button class="boton-nada" type="button" id="signRide">Sign Up to Ride</button>
+                <p>Already applied? <a href="#">Check the status of your application here.</a></p>
+                <p>Earn money for inviting friends to drive.<a href="#"> Learn more</a></p>
+
+            </form>
         </div>
-        <button type="button" class="boton-rosa" id="enviarFormulario">Become a Driver</button>
-        <button class="boton-nada" type="button" id="signRide">Sign Up to Ride</button>
-        <p>Already applied? <a>Check the status of your application here.</a></p>
-        <p>Earn money for inviting friends to drive.<a> Learn more</a></p>
-
-      </form>
-    </div>
-    <div id='texto'>
-      <h2>A RIDE IN MINUTES</h2>
-      <p>Request a ride and you’ll be on your way in minutes.<br> Request. Ride. Repeat.</p>
-      <h2>SERIOUS ABOUT SAFETY</h2>
-      <p>From knowing the color of your driver’s car to our 24/7 <br> Trust &#38; Safety Team, we got you.</p>
-      <h2>HAPPY DRIVERS.</h2>
-      <h2>HAPPY RIDERS</h2>
-      <p></p>
-      <div id="imagenTelefono">
-        <img src="assets/img/phone.png">
+        <div>
+            <h2>A RIDE IN MINUTES</h2>
+            <p>Request a ride and you’ll be on your way in minutes.<br> Request. Ride. Repeat.</p>
+            <h2>SERIOUS ABOUT SAFETY</h2>
+            <p>From knowing the color of your driver’s car to our 24/7 <br> Trust &#38; Safety Team, we got you.</p>
+            <h2>HAPPY DRIVERS.</h2>
+            <h2>HAPPY RIDERS</h2>
+            <p></p>
+        </div>
+        <div>
+            <img src="assets/img/phone.png">
+        </div>
+    </section>
+    <section id="seccion3">
+      <div class="seccion-textos p1">
+        <p class="alinearI">WATCH</p>
+        <h3 class="alinearI">AMPLIFY YOUR RIDE</h3>
+        <p class="parrafos alinearI">
+          Lyft’s new emblem, Amp, is the secret to smooth pickups.
+          Lighting up dashboards nationwide, the device makes it easy for passengers
+          and drivers to find each other.
+        </p>
       </div>
-
-    </div>
-
-  </section>
-  <section id="seccion3">
-    <div class="seccion-textos p1">
-      <p class="alinearI">WATCH</p>
-      <h3 class="alinearI">AMPLIFY YOUR RIDE</h3>
-      <p class="parrafos alinearI">
-        Lyft’s new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.
-      </p>
-    </div>
-    <div>
-      <a href=""><img class="imgV der" src="assets/img/img-video1.png"></a>
-    </div>
-  </section>
-  <section id="seccion4">
-    <div class="seccion-textos der">
-      <p class="alinearD">WATCH</p>
-      <h3 class="alinearD">JUNE</h3>
-      <p class="parrafos alinearD">
-        In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride — and sharing her life, too, Yaas.
-      </p>
-    </div>
-    <div class="seccion-textos">
-      <a><img class="imgV" src="assets/img/img-video2.png"></a>
-    </div>
-  </section>
-  <section id="seccion5">
-    <div class="seccion-textos p1">
-      <p class="parrafos alinearI">WATCH</p>
-      <h3 class="alinearI">A GOOD THING GOING</h3>
-      <p class="alinearI">Launching on TV and online, “Ride on the Bright Side” shows how Lyft continues to prioritize happy drivers, short ETAs, and safety.</p>
-    </div>
-    <div>
-      <a href=""><img class="imgV der" src="assets/img/img-video3.png"></a>
-    </div>
-  </section>
-  <section id="seccion6">
-    <div class="">
-      <div class="producto">
-        <p class="titulo6">PRODUCT</p>
-        <h3 class="tema6">NOW LIVE: SCHEDULED RIDES</h3>
-        <p class="resumen6">Now you can schedule Lyft rides up to seven days in advance and relax knowing your ride will be there when you need it. Whether you’re catching a flight or a show across town, you’ll have one less thing to worry about.</p>
-        <br>
-        <button>Learn More</button>
+      <div>
+       <a href=""><img class="imgV der" src="assets/img/img-video1.png"></a>
+     </div>
+    </section>
+    <section id="seccion4">
+      <div class="seccion-textos der">
+        <p class="alinearD">WATCH</p>
+        <h3 class="alinearD">JUNE</h3>
+        <p class="parrafos alinearD">
+          In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride — and sharing her life, too, Yaas.
+        </p>
       </div>
-      <div class="noticias">
-        <p class="titulo6">NEWS</p>
-        <h3 class="tema6">SIT FOR SOMETHING</h3>
-        <p class="resumen6">Taking a seat can make a difference. What if we leveraged this opportunity to accomplish more? What if we harnessed the collective might of our community? Starting in a few weeks, Lyft will be launching a new feature called Round Up and Donate.</p>
-        <button>Learn More</button>
+        <div class="seccion-textos">
+            <a><img class="imgV" src="assets/img/img-video2.png"></a>
+        </div>
+    </section>
+    <section id="seccion5">
+  		<div class="seccion-textos p1">
+  			<p class="parrafos alinearI">WATCH</p>
+  			<h3 class="alinearI">A GOOD THING GOING</h3>
+  			<p class="alinearI">Launching on TV and online, “Ride on the Bright Side” shows how Lyft continues to prioritize happy drivers, short ETAs, and safety.</p>
+  		</div>
+  		<div>
+  			<a href=""><img class="imgV der" src="assets/img/img-video3.png"></a>
+  		</div>
+  	</section>
+  	<section id="seccion6">
+      <div class="">
+        <div class="producto">
+    			<p class="titulo6">PRODUCT</p>
+    			<h3 class="tema6">NOW LIVE: SCHEDULED RIDES</h3>
+    			<p class="resumen6">Now you can schedule Lyft rides up to seven days in advance and relax knowing your ride will be there when you need it. Whether you’re catching a flight or a show across town, you’ll have one less thing to worry about.</p>
+          <br>
+    			<button>Learn More</button>
+    		</div>
+    		<div class="noticias">
+    			<p class="titulo6">NEWS</p>
+    			<h3 class="tema6">SIT FOR SOMETHING</h3>
+    			<p class="resumen6">Taking a seat can make a difference. What if we leveraged this opportunity to accomplish more? What if we harnessed the collective might of our community? Starting in a few weeks, Lyft will be launching a new feature called Round Up and Donate.</p>
+    			<button>Learn More</button>
+        </div>
       </div>
-    </div>
   </section>
   <section id="seccion7">
     <div class="pinUbicacion">
@@ -166,5 +161,4 @@
   </footer>
   <script src="assets/js/main.js"></script>
 </body>
-
 </html>
