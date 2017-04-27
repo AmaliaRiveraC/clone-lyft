@@ -248,18 +248,14 @@ nav {
 
 .producto {
   display: inline-block;
-  margin-left: 90px;
-  padding: 40px;
+  margin-left: 10%;
   width: 500px;
-  text-align: justify;
 }
 
 .noticias {
   display: inline-block;
-  margin-right: 90px;
-  padding: 40px;
+  margin-left: 3%;
   width: 500px;
-  text-align: justify;
 }
 
 .titulo6 {
