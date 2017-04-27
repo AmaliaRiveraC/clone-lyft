@@ -248,6 +248,7 @@ left: 192%;
 #seccion7 {
   margin-top: 100px;
   background-color: #352384;
+  margin-bottom: 0px;
 }
 
 .pinUbicacion {
@@ -283,6 +284,7 @@ left: 192%;
 /*Estilos footer*/
 
 .seccion8 {
+  margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
   background-color: #333447;
@@ -291,35 +293,35 @@ left: 192%;
 .columna {
   float: left;
   display: inline-block;
-  margin: 30px 0px 0px 40px;
-  width: 18%;
+  margin: 30px 0px 0px 0px;
+  width: calc((100%-1%)/5);
 }
 
-.columnaLi {
+.columna>li {
   display: block;
 }
 
-.columnaLiA {
+.columna>li>a {
   color: white;
   text-decoration: none;
 }
 
-.columnaLiA:hover {
+.columna>li>a:hover {
   color: #FF00BF;
 }
 
-.columnaImg {
+.columna>li>img {
   width: 167px;
   height: 50px;
 }
 
 .redes {
   clear: both;
-  width: 30%;
+  width: 34%;
   margin: 0 auto;
 }
 
-.redesImg {
+.redes>img {
   width: 30px;
   height: 30px;
   display: inline-block;
