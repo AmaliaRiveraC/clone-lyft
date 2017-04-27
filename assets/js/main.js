@@ -121,6 +121,7 @@ function cambiarColorBotonNada(){
 }
 
 function cambiarTextoMeetYour(){
+    console.log(tituloFormulario);
     tituloFormulario.innerHTML="<strong>MEET YOUR <br> 5-STAR RIDE</strong>";
     textoSpanFormulario.innerHTML="SING UP FOR RIDE IN A TAP.";
 }
