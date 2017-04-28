@@ -132,6 +132,36 @@ nav:hover{
   letter-spacing: 0.2em;
 }
 
+/* Imagen telefono seccion 2-1 */
+
+#texto {
+    color: white;
+    display: inline-block;
+    margin-top: 50%;
+    margin-left: 12%;
+    padding-bottom: 3%;
+}
+
+.tituloTexto{
+  font-size: 30px;
+  line-height: .01em;
+}
+.resumentexto{
+  font-size: 17px;
+  padding-top: 5px;
+}
+#imagenTelefono {
+  display: inline-block;
+  z-index: 2;
+  top: 10px;
+  left: 90%;
+}
+
+.telefono{
+  width: 450px;
+  height: 450px;
+}
+
 
 /* Estilo seccion2 */
 
@@ -236,6 +266,7 @@ nav:hover{
   margin-left: 20px;
   text-decoration: underline;
 }
+
 
 
 /*seccion6*/
@@ -419,3 +450,4 @@ nav:hover{
 .ocultar{
   display: none;
 }
+
