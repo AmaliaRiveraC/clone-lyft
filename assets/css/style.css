@@ -27,7 +27,8 @@ nav {
   display: inline-block;
   margin: 1% auto;
 }
-nav:hover{
+
+nav:hover {
   color: #FF00BF;
 }
 
@@ -36,15 +37,14 @@ nav:hover{
   margin: 20px;
   font-size: 1rem;
   list-style: none;
-
 }
-.menu-li:hover{
+
+.menu-li:hover {
   color: #FF00BF;
 }
 
-
 .botones {
-  background-color: rgba(51,52,7,0);
+  background-color: rgba(51, 52, 7, 0);
   border-radius: 2%;
   font-family: inherit;
   font-size: .8rem;
@@ -54,20 +54,21 @@ nav:hover{
   border-color: #ccc;
 }
 
-#singUp{
-  background-color: rgba(51,52,7,0.1);
+#singUp {
+  background-color: rgba(51, 52, 7, 0.1);
   display: none;
   border-color: #FF00BF;
   color: #FF00BF;
 }
-#logIn{
-  background-color: rgba(51,52,7,0.1);
+
+#logIn {
+  background-color: rgba(51, 52, 7, 0.1);
   color: white;
   border-color: #FF00BF;
 }
 
 .botones:hover {
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   color: white;
   opacity: 2;
 }
@@ -123,29 +124,32 @@ nav:hover{
   letter-spacing: 0.2em;
 }
 
-.seccion-textos>h3{
+.seccion-textos>h3 {
   font-size: 25px;
   letter-spacing: 0.2em;
 }
 
+
 /* Imagen telefono seccion 2-1 */
 
 #texto {
-    color: white;
-    display: inline-block;
-    margin-top: 50%;
-    margin-left: 12%;
-    padding-bottom: 3%;
+  color: white;
+  display: inline-block;
+  margin-top: 50%;
+  margin-left: 12%;
+  padding-bottom: 3%;
 }
 
-.tituloTexto{
+.tituloTexto {
   font-size: 30px;
   line-height: .01em;
 }
-.resumentexto{
+
+.resumentexto {
   font-size: 17px;
   padding-top: 5px;
 }
+
 #imagenTelefono {
   display: inline-block;
   z-index: 2;
@@ -153,7 +157,7 @@ nav:hover{
   left: 90%;
 }
 
-.telefono{
+.telefono {
   width: 450px;
   height: 450px;
 }
@@ -162,11 +166,10 @@ nav:hover{
 /* Estilo seccion2 */
 
 #seccion2 {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      background-color: #6c1d86;
-
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #6c1d86;
 }
 
 #imagen-seccion2 {
@@ -190,16 +193,17 @@ nav:hover{
 }
 
 #seccion2 h1 {
-    color: #352384;
-    font-size: 50px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  color: #352384;
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .esconderFormulario {
   display: none;
 }
-.extenderFormulario{
+
+.extenderFormulario {
   display: inline-block;
 }
 
@@ -211,10 +215,11 @@ nav:hover{
 }
 
 #seccion2 a {
-    color: #ff00bf;
-    text-decoration: none;
+  color: #ff00bf;
+  text-decoration: none;
 }
-#ponerSubrayado{
+
+#ponerSubrayado {
   color: #ff00bf;
 }
 
@@ -223,19 +228,20 @@ nav:hover{
   margin-bottom: 15px;
 }
 
-#seccion2 input.salto{
-    display: block;
-    width: 496px;
-}
-#seccion2 input{
-    margin: 20px 0px 20px 0px;
-    border: 0px;
-    border-bottom: 1px solid black;
-    font-size:20px;
-    color: #bfc7d9;
+#seccion2 input.salto {
+  display: block;
+  width: 496px;
 }
 
-.terminos{
+#seccion2 input {
+  margin: 20px 0px 20px 0px;
+  border: 0px;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  color: #bfc7d9;
+}
+
+.terminos {
   display: block;
   font-size: 11px;
 }
@@ -264,7 +270,6 @@ nav:hover{
 }
 
 
-
 /*seccion6*/
 
 #seccion6 {
@@ -291,7 +296,6 @@ nav:hover{
 .tema6 {
   font-size: 25px;
   font-weight: bolder;
-
 }
 
 .resumen6 {
@@ -299,7 +303,7 @@ nav:hover{
   font-weight: lighter;
 }
 
-.leerMas{
+.leerMas {
   font-size: 17px;
   color: #333447;
   font-weight: bold;
@@ -318,7 +322,7 @@ nav:hover{
   position: relative;
 }
 
-.ubicacion{
+.ubicacion {
   margin-left: 10%;
   margin-top: -2%;
   width: 16.5%;
@@ -372,12 +376,12 @@ nav:hover{
 
 .columna>li>a {
   color: white;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .columna>li>a:hover {
   color: #FF00BF;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 .columna>li>img {
@@ -391,10 +395,11 @@ nav:hover{
   margin: 0 auto;
 }
 
-.redes>a{
+.redes>a {
   text-decoration: none;
-  cursor:pointer;
+  cursor: pointer;
 }
+
 .redes>a>img {
   width: 30px;
   height: 30px;
@@ -409,25 +414,27 @@ nav:hover{
   margin-bottom: 10px;
   clear: both;
 }
-.legales{
-    color: white;
-    font-size: 0.9em;
-    width: calc((100%-40%)/1.5);
+
+.legales {
+  color: white;
+  font-size: 0.9em;
+  width: calc((100%-40%)/1.5);
 }
-.legales>li{
+
+.legales>li {
   display: inline-block;
   margin-left: 15px;
 }
-.legales>li>a{
-  text-decoration:none;
+
+.legales>li>a {
+  text-decoration: none;
   color: white;
   font-size: 0.9em;
-
 }
-.legales>li>a:hover{
 
+.legales>li>a:hover {
   color: #FF00BF;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 .limpiar {
@@ -435,9 +442,10 @@ nav:hover{
   height: 50px;
 }
 
-.displayInline{
+.displayInline {
   display: inline;
 }
-.ocultar{
+
+.ocultar {
   display: none;
 }
