@@ -286,28 +286,23 @@ nav:hover{
 }
 
 #seccion7 {
-  margin-top: 100px;
+  margin-top: 4%;
   background-color: #352384;
-  height: 300px;
-}
-
-.pinUbicacion {
   position: relative;
-  left: 150px;
-  top: -50px;
 }
 
 .ubicacion{
+  margin-left: 10%;
+  margin-top: -2%;
   width: 16.5%;
   height: 16.5%;
 }
 
 .contenidoUbicacion {
   width: 40%;
-  position: relative;
-  text-align: justify;
-  left: 690px;
-  bottom: 300px;
+  position: absolute;
+  left: 50%;
+  top: 20%;
 }
 
 .tituloUbicacion {
