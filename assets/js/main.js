@@ -1,11 +1,9 @@
 var logo = document.getElementById('logo');
 var imgBlanco = document.createElement('img');
-var botonAparecer = document.createElement('button');
 var encabezado = document.getElementById('seccion1');
 
 imgBlanco.src = "assets/img/logo-white.png" ;
 imgBlanco.className = "logoBlanco";
-encabezado.appendChild(botonAparecer);
 logo.appendChild(imgBlanco);
 
 document.addEventListener("scroll", function() {
@@ -14,11 +12,13 @@ document.addEventListener("scroll", function() {
     cambiarTexto();
     cambiarImagen();
     aparecerBoton();
+    letraBotones();
   }else{
     cambioClaseN();
     cambiarTextoN();
     cambiarImagenN();
     aparecerBotonN();
+    letraBotonesN();
   }
 });
 
@@ -27,7 +27,7 @@ function cambioClase() {
   }
 function cambioClaseN() {
     var encabezado = document.getElementById('seccion1');
-    encabezado.style.background = "rgba(51,52,7,0.2)";
+    encabezado.style.background = "rgba(51,52,7,0.1)";
     }
 
 function cambiarImagen() {
@@ -39,24 +39,32 @@ function cambiarImagenN() {
 function cambiarTexto() {
   var menu = document.getElementsByClassName("menu-li");
   for (var i = 0; i < menu.length; i++) {
-    menu[i].className = "menu-li textoNegro";
+    menu[i].className = "menu-li tituloNegro";
   };
  };
 function cambiarTextoN() {
    var menu = document.getElementsByClassName("menu-li");
    for (var i = 0; i < menu.length; i++) {
-     menu[i].className = "menu-li textoBlanco";
+     menu[i].className = "menu-li tituloBlanco";
    };
   };
 function aparecerBoton() {
-  var botonMostrar = document.getElementById('login');
+  var botonMostrar = document.getElementById('singUp');
   botonMostrar.style.display = "inline-block";
 }
 function aparecerBotonN() {
-  var botonMostrar = document.getElementById('login');
+  var botonMostrar = document.getElementById('singUp');
   botonMostrar.style.display = "none";
 }
+function letraBotones() {
+  var letra = document.getElementsByClassName('logIn')[0];
+  letra.style.color = "black";
+}
+function letraBotonesN() {
+  var letra = document.getElementsByClassName('logIn')[0];
+  letra.style.color = "white";
 
+}
 
 
 
