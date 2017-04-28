@@ -79,85 +79,59 @@ nav:hover{
 
 /*Seccion 3-5*/
 
-#texto {
-    color: white;
-    position: relative;
-    display: inline-block;
-    margin-top: 50%;
-    margin-left: 12%;
-    padding-bottom: 20px;
+#secciones {
+  display: block;
+  margin: 0;
 }
-
-#imagenTelefono {
-  display: inline-block;
-  left: 90%;
-  top: 10px;
-  z-index: 2;
-}
-.telefono{
-  width:450px;
-  height: 450px;
-}
-
-.tituloTexto{
-  font-size: 30px;
-  line-height: .01em;
-}
-.resumentexto{
-  font-size: 17px;
-  padding-top: 5px;
-}
-
-
-
-
 
 .seccion-textos {
   display: inline-block;
-  width: 30%;
+  width: 15%;
+  margin-top: 8%;
+  margin-right: 14%;
+  margin-left: 5%;
 }
 
-.p1 {
+.flotar-izquierda {
   float: left;
 }
 
-.displayInline{
-  display: inline;
-}
-.ocultar{
-  display: none;
-}
-.imgV {
-  width: 850px;
-  height: 506px;
-  position: relative;
-  padding: 0;
-}
-
-.der {
+.flotar-derecha {
   float: right;
 }
 
+.tamaño {
+  width: 65%;
+  display: inline-block;
+}
+
+.tamaño img {
+  width: 100%;
+}
+
+.tamaño iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.texo {
+  margin-top: 25%;
+}
 
 .parrafos {
   font-size: 17px;
+  width: 145%;
 }
 
-.alinearI {
-  margin-left: 14%;
-}
-
-.alinearD {
-  margin-right: 14%;
-}
-.seccion-textos>p:first-child{
-  margin-top: 45%;
+.seccion-textos>p:first-child {
   letter-spacing: 0.2em;
 }
+
 .seccion-textos>h3{
   font-size: 25px;
   letter-spacing: 0.2em;
 }
+
 
 /* Estilo seccion2 */
 
@@ -437,4 +411,11 @@ nav:hover{
 .limpiar {
   clear: both;
   height: 50px;
+}
+
+.displayInline{
+  display: inline;
+}
+.ocultar{
+  display: none;
 }
