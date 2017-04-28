@@ -11,69 +11,65 @@
 
 ul {
   display: inline-block;
-  margin-left: 20%;
-  margin-right: 20%%;
+  margin-left: 15%;
 }
 
 #logo {
   display: inline-block;
   margin-top: 2%;
-  margin-left: 8%;
-  margin-right: 30%;
-  width: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 10%;
 }
 
 nav {
   width: 100%;
   display: inline-block;
-  margin-top: 2%;
+  margin: 1% auto;
 }
 nav:hover{
   color: #FF00BF;
 }
 
 .menu-li {
-  display: inline-block;
-  font-size: 1.5em;
+  display: inline;
+  margin: 20px;
+  font-size: 1rem;
   list-style: none;
-  color: white;
+
 }
 .menu-li:hover{
   color: #FF00BF;
 }
 
-.textoNegro {
-  display: inline;
-  margin: 20px;
-  font-size: 2rem;
-  list-style: none;
-  color: black;
-}
-.textoBlanco {
-  display: inline;
-  margin: 20px;
-  font-size: 2rem;
-  list-style: none;
-  color: white;
-}
 
-#login {
-  display: none;
+.botones {
+  background-color: rgba(51,52,7,0);
+  border-radius: 2%;
   font-family: inherit;
-  color: white;
-  border: 1px solid white;
-  font-size: 20px;
-  border-radius: 8px;
-  padding: 7px;
-  width: 90px;
-  position: absolute;
-  right: 8px;
-  top: 10px;
+  font-size: .8rem;
+  border-radius: 9%;
+  padding: 1%;
+  width: 8%;
+  border-color: #ccc;
 }
 
-#login:hover {
+#singUp{
+  background-color: rgba(51,52,7,0.1);
+  display: none;
+  border-color: #FF00BF;
   color: #FF00BF;
-  opacity: .2;
+}
+#logIn{
+  background-color: rgba(51,52,7,0.1);
+  color: white;
+  border-color: #FF00BF;
+}
+
+.botones:hover {
+  background-color: rgba(255,255,255,0.3);
+  color: white;
+  opacity: 2;
 }
 
 
@@ -132,6 +128,36 @@ nav:hover{
   letter-spacing: 0.2em;
 }
 
+/* Imagen telefono seccion 2-1 */
+
+#texto {
+    color: white;
+    display: inline-block;
+    margin-top: 50%;
+    margin-left: 12%;
+    padding-bottom: 3%;
+}
+
+.tituloTexto{
+  font-size: 30px;
+  line-height: .01em;
+}
+.resumentexto{
+  font-size: 17px;
+  padding-top: 5px;
+}
+#imagenTelefono {
+  display: inline-block;
+  z-index: 2;
+  top: 10px;
+  left: 90%;
+}
+
+.telefono{
+  width: 450px;
+  height: 450px;
+}
+
 
 /* Estilo seccion2 */
 
@@ -159,7 +185,7 @@ nav:hover{
   position: absolute;
   padding: 1.5%;
   right: 0%;
-  top: 100px;
+  top: 10%;
   z-index: 2;
 }
 
@@ -236,6 +262,7 @@ nav:hover{
   margin-left: 20px;
   text-decoration: underline;
 }
+
 
 
 /*seccion6*/
